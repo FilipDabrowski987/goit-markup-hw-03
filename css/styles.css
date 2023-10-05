@@ -24,6 +24,9 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--accent);
 }
 
 .header {
@@ -88,8 +91,6 @@ h3 {
     color: var(--dark);
 }
 
-
-
 address {
     font-style: normal;
 }
@@ -102,7 +103,6 @@ address {
     color: var(--primary-brand);
     cursor: pointer;
 }
-
 
 .filtr {
     color: var(--primary-brand);
@@ -228,4 +228,13 @@ footer {
 
 .container {
     width: 1158px;
+}
+
+.pic {
+    padding-bottom: 32px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
