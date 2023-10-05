@@ -1,0 +1,231 @@
+:root {
+        --primary-brand: #4d5ae5;
+    --pressed-state: #404bbf;
+    --dark: #2E2f42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8e8f99;
+    --accent: #E7E9fc;
+    --light: #f4f4fd;
+    --modal-overlay: #2e2f42;
+    --hero-backround: #2e2f42;
+    --white-background: #FFFFFF;
+    --modal-backround: #fcfcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--white-background);
+    font-size: 24px;
+}
+
+header {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.header {
+color: var(--dark);
+}
+
+.motto {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-transform: capitalize;
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.char {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.task {font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.people {
+    background-color: var(--light);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.teamlist {
+    background-color: var(--white-background);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+
+
+address {
+    font-style: normal;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--primary-brand);
+    cursor: pointer;
+}
+
+
+.filtr {
+    color: var(--primary-brand);
+    letter-spacing: 0.04em;
+    background-color: var(--light);
+    padding: 12px 24px;
+}
+
+.filtr:hover,
+.filtr:focus {
+    color: var(--white-background);
+    background-color: var(--pressed-state);
+}
+
+.orderservice {
+    color: white;
+    background-color: var(--primary-brand);
+    letter-spacing: 0.04em;
+}
+
+body > button {
+    font-family: "Roboto", sans-serif;
+}
+
+.orderservice:hover,
+.orderservice:focus {
+    background-color: var(--pressed-state);
+}
+
+footer {
+    line-height: 1.5;
+    background-color: var(--dark);
+    letter-spacing: 0.03em;
+}
+
+.footer {
+    color: var(--light);
+}
+
+.parinfoo {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light);
+}
+
+.cont {
+    color: var(--text);
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--pressed-state);
+}
+
+.link .logo:hover,
+.link .logo:focus {
+    color: var(--pressed-state);
+}
+
+.logo {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand);
+}
+
+.navigation {
+    color: var(--dark);
+    letter-spacing: 0.02em;
+}
+
+.navigation:hover,
+.navigation:focus {
+    color: var(--pressed-state);
+}
+.link {
+    text-decoration: none;
+}
+
+.par {
+    letter-spacing: 0.02em;
+    color: var(--text);
+    letter-spacing: 0.02em;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.motto {
+    background-color: var(--dark);
+}
+
+.title {
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+}
+
+.team{
+    background-color: var(--light);
+}
+
+.head {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.teamlist {
+    background-color: var(--white-background);
+}
+
+.container {
+    width: 1158px;
+}
