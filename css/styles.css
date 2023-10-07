@@ -76,6 +76,11 @@ width: calc((100% - 72px) / 4);
 }
 
 .characteristic {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
     margin-bottom: 8px;
 }
 
@@ -88,10 +93,12 @@ width: calc((100% - 72px) / 4);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
-    text-align: center;
+    text-align: left;
 }
 
-.task {font-size: 36px;
+.task {
+    font-size: 36px;
+    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -290,6 +297,7 @@ footer {
 
 .teamhead {
     font-size: 36px;
+    font-weight: 700;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
