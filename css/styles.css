@@ -134,7 +134,7 @@ address {
     display: flex;
     gap: 24px;
     justify-content: center;
-    styl margin-bottom: 72px;
+    margin-bottom: 72px;
     }
 
 .button {
@@ -146,7 +146,7 @@ address {
     cursor: pointer;
 }
 
-.filtres {
+.sectionfiltres {
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -252,6 +252,7 @@ footer {
 .navigation:focus {
     color: var(--pressed-state);
 }
+
 .link {
     text-decoration: none;
 }
@@ -312,6 +313,10 @@ footer {
     padding-bottom: 32px;
 }
 
+.picheader {
+    margin-bottom: 8px;
+}
+
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -358,4 +363,11 @@ margin-bottom: 8px;
 
 .headcontainer {
 display: flex;
+}
+
+.appcontainer {
+    padding: 32px 16px;
+    border: 1px solid var(--accent);
+    border-top: none;
+
 }
