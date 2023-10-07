@@ -140,6 +140,9 @@ address {
     background-color: var(--primary-brand);
     letter-spacing: 0.04em;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     border-radius: 4px;
     display: block;
     margin: 0 auto;
