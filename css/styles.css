@@ -35,6 +35,7 @@ color: var(--dark);
 
 .headcont {
     display:flex;
+    align-items: center;
 }
 
 .motto {
@@ -168,8 +169,10 @@ footer {
 }
 
 .contact {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    gap: 40px;
+
 }
 
 .cont {
