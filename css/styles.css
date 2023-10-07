@@ -75,6 +75,10 @@ gap: 24px;
 flex-basis: calc((100% - 72px) / 4);
 }
 
+.lipic {
+    width: calc((100% - 48px) / 3);
+}
+
 .char {
     font-size: 16px;
     line-height: 1.5;
@@ -126,6 +130,13 @@ address {
     font-style: normal;
 }
 
+.ulbuttons {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    styl margin-bottom: 72px;
+    }
+
 .button {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -135,17 +146,25 @@ address {
     cursor: pointer;
 }
 
+.filtres {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .filtr {
     color: var(--primary-brand);
     letter-spacing: 0.04em;
     background-color: var(--light);
     padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--accent);
 }
 
 .filtr:hover,
 .filtr:focus {
     color: var(--white-background);
     background-color: var(--pressed-state);
+    border: 1px solid transparent;
 }
 
 .orderservice {
@@ -282,7 +301,12 @@ footer {
     padding: 0 15px;
 
 }
-
+.buttonpic {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
 .pic {
     padding-bottom: 32px;
