@@ -115,6 +115,7 @@ width: calc((100% - 72px) / 4);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
+    width: calc((100% - 72px) / 4);
 }
 
 address {
@@ -255,13 +256,14 @@ footer {
     background-color: var(--light);
 }
 
-.head {
+.teamhead {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .teamlist {
@@ -307,4 +309,9 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.members {
+    display: flex;
+    gap: 24px;
 }
