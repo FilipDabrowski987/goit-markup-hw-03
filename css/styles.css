@@ -61,12 +61,16 @@ h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
+    margin-bottom: 8px;
 }
 
-.characteristic {
+.ulcharacteristic {
 display: flex;
-flex-wrap: wrap;
 gap: 24px;
+}
+
+.licharacteristic {
+width: calc((100% - 72px) / 4);
 }
 
 .char {
@@ -82,12 +86,16 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
-.tasks {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.ultasks {
+    display: flex;
+    gap: 24px;
+}
+
+.litasks{
+    width: calc((100% - 48px) / 3);
 }
 
 .people {
@@ -285,4 +293,18 @@ img {
     display: flex;
     gap: 40px;
     padding: 24px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
