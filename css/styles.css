@@ -20,7 +20,7 @@ body {
     font-size: 24px;
 }
 
-header {
+.header {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -29,8 +29,12 @@ header {
     border-bottom-color: var(--accent);
 }
 
-.header {
+.inheader {
 color: var(--dark);
+}
+
+.headcont {
+    display:flex;
 }
 
 .motto {
@@ -76,6 +80,12 @@ gap: 24px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+}
+
+.tasks {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .people {
@@ -186,6 +196,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: var(--primary-brand);
+    margin-right: 76px;
 }
 
 .navigation {
@@ -241,7 +252,11 @@ footer {
 
 .container {
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
 }
+
 
 .pic {
     padding-bottom: 32px;
@@ -257,7 +272,6 @@ img {
 }
 
 .nav {
-    display: inline-flex;
-    align-items: center;
+    display: flex;
     gap: 40px;
 }
