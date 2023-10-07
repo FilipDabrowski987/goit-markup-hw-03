@@ -70,7 +70,7 @@ gap: 24px;
 }
 
 .licharacteristic {
-width: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 72px) / 4);
 }
 
 .char {
@@ -96,7 +96,7 @@ width: calc((100% - 72px) / 4);
 }
 
 .litasks{
-    width: calc((100% - 48px) / 3);
+flex-basis: calc((100% - 48px) / 3);
 }
 
 .people {
@@ -116,7 +116,7 @@ width: calc((100% - 72px) / 4);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -189,7 +189,6 @@ footer {
     display: flex;
     align-items: center;
     gap: 40px;
-
 }
 
 .cont {
@@ -326,4 +325,8 @@ margin-bottom: 8px;
 .membercontainer {
     padding: 32px 0;
 
+}
+
+.headcontainer {
+display: flex;
 }
