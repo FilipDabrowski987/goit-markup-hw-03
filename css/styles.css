@@ -44,6 +44,7 @@ color: var(--dark);
     line-height: 1.07;
     text-transform: capitalize;
     color: white;
+    padding: 188px 0;
 }
 
 h2 {
@@ -140,6 +141,8 @@ address {
     letter-spacing: 0.04em;
     padding: 16px 32px;
     border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 body > button {
@@ -234,6 +237,7 @@ footer {
     text-align: center;
     font-size: 56px;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 
 .team{
