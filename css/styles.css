@@ -358,8 +358,9 @@ img {
     display: block;
 }
 
-.nav {
+.ulnav {
     display: flex;
+    text-align: center;
     gap: 40px;
     padding: 24px 0;
 }
