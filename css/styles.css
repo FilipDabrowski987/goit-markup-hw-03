@@ -430,3 +430,16 @@ gap: 332px;
     border-top: none;
 
 }
+
+.logoinfoo {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand);
+    margin-right: 76px;
+    display: inline-block;
+}
