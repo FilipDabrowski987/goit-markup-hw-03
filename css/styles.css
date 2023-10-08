@@ -10,7 +10,7 @@
     --modal-overlay: #2e2f42;
     --hero-backround: #2e2f42;
     --white-background: #FFFFFF;
-    --modal-backround: #fcfcfc;
+    --modal-background: #fcfcfc;
 }
 
 body {
@@ -90,6 +90,7 @@ width: calc((100% - 72px) / 4);
 
 .char {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
@@ -139,6 +140,9 @@ flex-basis: calc((100% - 48px) / 3);
 
 address {
     font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .ulbuttons {
@@ -213,21 +217,29 @@ footer {
 
 .parinfoo {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light);
+    max-width: 264px;
 }
 
 .ulcontact{
     display: flex;
-    align-items: center;
+    align-items: right;
     gap: 40px;
+    list-style: none;
+    text-align: center;
 }
 
-.cont {
+.conts {
     color: var(--text);
     font-style: normal;
+    font-weight: 400;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .link:hover,
@@ -251,6 +263,7 @@ footer {
     margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
+    margin-left: 156px;
 }
 
 .navigation {
@@ -367,17 +380,29 @@ img {
 
 .members {
     display: flex;
+    font-size: 20px;
     gap: 24px;
 }
 
 .member {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 8px;
 }
 
+.memberposition {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    text-align: center;
+}
 .membercontainer {
     padding: 32px 0;
-
 }
 
 .headcontainer {
