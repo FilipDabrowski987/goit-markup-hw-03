@@ -443,3 +443,10 @@ gap: 332px;
     margin-right: 76px;
     display: inline-block;
 }
+
+.icon {
+    style="outline: 2px dashed #2a2a2a;
+    fill: black;
+    stroke: black;
+    
+}
